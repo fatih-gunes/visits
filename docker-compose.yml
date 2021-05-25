@@ -6,4 +6,10 @@ services:
         restart: on-failure
         build: .
         ports:
-            - "4001:8081"
+            - "8081:8081"
+
+
+# docker-compose up --build            
+# docker-compose up
+# docker-compose up -d
+# docker-compose down

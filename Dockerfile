@@ -7,3 +7,8 @@ RUN npm install
 COPY . .
 
 CMD ["npm", "start"]
+
+
+# docker build .
+# docker build -t fatihgunes/visits:latest .
+# docker run redis
